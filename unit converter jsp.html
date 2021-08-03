@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <head>
+    <title>Unit Converter</title>
+
+	<script>
+
+	function CelsiusConverter(){
+		var degreef = prompt("Enter number of degrees Farenheit to convert to Celsius");
+		var convert = (degreef-32)*5/9;
+		alert("The degree of celsius is "+convert);
+		}
+		
+	function lbsToKilo(){
+		var lbs = prompt("Enter number of pounds to convert to Kilograms");
+		var convert =lbs/2.205;
+		alert("The amount of Kilos is "+convert);
+	}
+	
+	function MilestoAU(){
+		var miles = prompt("Enter number of miles to convert to Astronomical Units");
+		var convert =miles/9.296e+7;
+		alert("The amount of AU from miles is "+convert);
+	}
+	
+	function InchToMiles(){
+		var inch = prompt("Enter number of inches to convert to miles");
+		var convert = inch/63360;
+		alert("The length of the mile is "+convert);
+	}
+	
+	</script>
+  </head>
+  <body>
+ <button onclick="CelsiusConverter();">
+    Fahrenheit To Celsiusbutton</button><br />
+
+  <button onclick="lbsToKilo();">
+    lbs to kilograms</button><br />
+
+  <button onclick="MilestoAU();">
+    Miles to Astronmial Units</button><br />
+	
+	 <button onclick="InchToMiles();">
+    Inches To Miles</button><br />
+  </body>
+</html>
+
+
+	
